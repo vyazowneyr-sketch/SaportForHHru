@@ -1,10 +1,10 @@
 services:
   postgres:
-    image: postgres:15
+    image: postgres:16
     environment:
       POSTGRES_USER: psg_user
       POSTGRES_PASSWORD: z123s4567
-      POSTGRES_DB: SHR 
+      POSTGRES_DB: SHR
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
